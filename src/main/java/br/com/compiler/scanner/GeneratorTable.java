@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class GeneratorTable {
     public static void main(String[] args) throws IOException {
         @SuppressWarnings("resource")
-		Scanner scanner = new Scanner(System.in);
+	Scanner scanner = new Scanner(System.in);
         String expression;
         System.out.println("Expressao: ");
         expression = scanner.nextLine();
